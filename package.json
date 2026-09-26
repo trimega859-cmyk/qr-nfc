@@ -1,0 +1,22 @@
+{
+  "name": "qr-nfc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistem QR + NFC sederhana: ID otomatis, URL unik, form/redirect link Google, export massal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "fflate": "^0.8.3",
+    "jsqr": "^1.4.0",
+    "mysql2": "^3.24.4",
+    "qrcode": "^1.5.4"
+  }
+}
